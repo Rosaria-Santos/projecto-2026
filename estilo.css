@@ -1,0 +1,165 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: rgb(247, 247, 240);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: black;
+   
+    
+}
+
+
+/*para o menu do site*/
+
+header{
+  
+    
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 626px;}
+      
+
+.header{
+      display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0 20px;
+    font-size: 15pt;
+    border: 0;
+    
+
+}
+ .menu-site a:hover{
+
+    transform:scale(2.5);
+    
+   }
+
+.nome-site img{
+    padding:5px  5px;
+    margin:10px 10px;
+    border-radius: 20px 30px 20px 30px;
+    box-shadow: 5px 3px 3px;
+ 
+
+}
+.menu-site ul li{
+
+    padding: 15px 15px;
+    margin: 30px 5px;
+    justify-content: space-between;
+    transition: 2.5s;
+
+}
+ .menu-site li{
+    list-style-type: none;
+    display: inline-block; 
+    justify-content: space-between;
+    color: rgb(211, 206, 206);
+}
+
+.menu-site a{
+    
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-left: 30px;
+
+}
+
+
+.menu-site a:hover{
+
+    transform: scale(3.5s);
+  color: aliceblue;
+
+}
+
+
+.contacto-site {
+    margin-left: 30px;
+}
+.contacto-site a {
+
+    color: black;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:20px;
+    text-decoration: none;
+}
+/* fim do, para o menu do site*/
+
+
+
+
+
+
+ 
+/*carrosel*/
+
+    
+
+.carousel-inner{
+   position: relative;
+    margin: 0 0 0 0;
+    bottom: 40px;
+    
+}
+
+.carousel-item img{
+  width: 100%;
+  height: 630px;
+} /*carrosel fim*/
+
+
+.entro-imo{
+text-align: center;
+margin: 30px;
+
+.entro{
+
+    .h1-pp{
+        h1 { color: #8a8888;}
+        p {margin: 30px;} color: black;
+    }
+}
+}
+
+
+
+.fidelidade{
+     background-color: #faf5f5;
+
+    .h1-fidel{ 
+   text-align: center;
+        margin: 200px 0 30px 0; 
+       
+    h1 {
+        
+        color: rgb(196, 126, 126);
+        font-size: 70pt;
+        margin-bottom: 20px;
+    }
+
+        h3{  
+        color: rgb(235, 186, 186);
+        }
+    }
+    
+}
+
+.img--{
+    margin: 20px;
+    background-repeat: no-repeat;
+    
+}
